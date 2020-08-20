@@ -1,0 +1,17 @@
+extends layout 
+block layout-content
+    div.view
+        h1.Banner 
+            div.Msssage
+                div.Title
+                    h3 Making the Best
+                        h1 Food For Devs
+                            div.NavButtons(href="/user")
+                                div.NavButtons
+                                    //- img(src="https://img.ltwebstatic.com/images3_pi/2019/11/02/157267086881138482d8de903235bf7be89635ed4c.webp")
+                                    div.Einav
+                                    form(action="/user" method ="post")
+                                              input(type="text" id="firstname" name="name" placeholder="first name")
+                                              input(type="text" id="lastName" name="lastName" placeholder="last Name") 
+                                              input(type="submit" value="Submit")
+
